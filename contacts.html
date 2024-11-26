@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eburet</title>
+    <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicons/favicon.png" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="shop.html" class="menu-item"><li>Магазин</li></a>
+          <a href="about.html" class="menu-item"><li>О бренде</li></a>
+          <a href="order.html" class="menu-item"><li>Заказать</li></a>
+          <a href="index.html" class="logo-link"
+            ><img src="images/logo.png" alt="Eburet"
+          /></a>
+          <a href="reviews.html" class="menu-item"><li>Отзывы</li></a>
+          <a href="help.html" class="menu-item"><li>Помощь</li></a>
+          <a href="contacts.html" class="menu-item active"><li>Контакты</li></a>
+        </ul>
+      </nav>
+    </header>
+    <section class="contacts_contaner">
+      <h2>Свяжитесь с нами</h2>
+      <div class="contacts_contaner_box">
+        <img
+          src="images/eburet_at_home.png"
+          alt="Ебурет в интерьере"
+          title="Ебурет в интерьере"
+        />
+        <form
+          id="contactForm"
+          name="contactForm"
+          action="https://www.google.com/search?q="
+          method="get"
+          target="_blank"
+        >
+          <input type="hidden" name="q" value="search" />
+          <input
+            type="text"
+            id="surname"
+            name="surname"
+            placeholder="Фамилия"
+            required
+          />
+
+          <input type="text" id="name" name="name" placeholder="Имя" required />
+
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Мобильный телефон"
+            required
+          />
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Электронная почта"
+            required
+          />
+
+          <button type="submit" id="checkButton">Отправить</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>Eburet © 2024</p>
+      <a href="#top" class="back-to-top">К началу ↑</a>
+    </footer>
+  </body>
+</html>

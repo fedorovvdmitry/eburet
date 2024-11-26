@@ -1,0 +1,341 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: url('../images/cursor.png'), url('../images/cursor.svg'), default;
+}
+
+a {
+  cursor: url('../images/cursor_pointer.svg'), pointer;
+}
+
+h1 {
+  font-size: 136px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 120%;
+}
+
+p {
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 400;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.menu-item {
+  padding: 8px 24px;
+  color: black;
+  background-color: white;
+  border-radius: 32px;
+  border: 1px solid #e2e2e2;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  background-color: #e2e2e2;
+}
+
+.menu-item.active {
+  background-color: #fa8196;
+  color: white;
+}
+
+.logo-link {
+  margin: 0 200px;
+}
+
+.logo-link img {
+  width: 140px;
+  height: 28px;
+  transition: 0.6s;
+}
+
+.logo-link:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/* index */
+
+.index_main_contaner {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-text {
+  margin: 0 auto;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.highlight-pink {
+  color: #fa8196;
+}
+
+.highlight-blue {
+  color: #53a0ee;
+}
+
+/* contacts */
+
+.contacts_contaner {
+  margin-top: 80px;
+  padding: 64px 30px 50px 30px;
+}
+
+.contacts_contaner_box {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.contacts_contaner img {
+  border-radius: 30px;
+}
+
+.contacts_contaner form {
+  width: 100%;
+}
+
+.contacts_contaner input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 16px 24px;
+  color: #6f6f6f;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 30px;
+  border: 1px solid #e2e2e2;
+}
+
+.contacts_contaner input + input {
+  margin-top: 16px;
+}
+
+.contacts_contaner button {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 32px;
+  background-color: #fa8196;
+  border: none;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 24px;
+}
+
+/* shop */
+
+.product-cards,
+.reviews-container,
+.about-brand-container {
+  margin-top: 80px;
+  padding: 64px 30px 50px 30px;
+}
+
+.product-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 42px;
+  margin-bottom: 42px;
+}
+
+.card-title {
+  text-transform: uppercase;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 32px;
+  background-color: #fa8196;
+  border: none;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #ea99a5;
+  transition: 0.2s;
+}
+
+/* reviews */
+
+.review-form-contaner {
+  padding: 64px 30px 50px 30px;
+}
+
+.reviews-card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  margin-top: 32px;
+}
+
+.review-card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  padding: 24px;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-author {
+  font-size: 18px;
+  color: #333;
+}
+
+.review-date {
+  font-size: 14px;
+  color: #999;
+}
+
+.review-text {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.reviews-container .btn {
+  box-sizing: border-box;
+  width: max-content;
+  margin: 32px auto 0;
+}
+
+.review-form-contaner {
+  display: flex;
+  gap: 40px;
+}
+
+.review-form-contaner form {
+  width: 50%;
+}
+
+.review-form-contaner form h2 {
+  margin-bottom: 32px;
+}
+
+.review-form-contaner input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 16px 24px;
+  color: #6f6f6f;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 30px;
+  border: 1px solid #e2e2e2;
+}
+
+.review-form-contaner textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 16px 24px;
+  color: #6f6f6f;
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 30px;
+  border: 1px solid #e2e2e2;
+  overflow: hidden;
+}
+
+.review-form-contaner button {
+  width: 100%;
+  padding: 14px 18px;
+  border-radius: 32px;
+  background-color: #fa8196;
+  border: none;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 24px;
+}
+
+.review-form-contaner img {
+  width: 50%;
+  height: 450px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+/* footer */
+
+footer {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #f2f2f2;
+}
+
+.back-to-top {
+  position: absolute;
+  right: 30px;
+  padding: 8px 24px;
+  color: black;
+  background-color: white;
+  border-radius: 32px;
+  border: 1px solid #e2e2e2;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  background-color: #e2e2e2;
+}

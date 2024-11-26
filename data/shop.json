@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Eburet",
+    "vendor_code": "111",
+    "description": "Столик, стеллаж, табурет.",
+    "price": 30000,
+    "img": "../images/eburet_pink.png"
+  },
+  {
+    "id": "2",
+    "title": "Eburet MEGA",
+    "vendor_code": "222",
+    "description": "Журнальный стол с местом для хранения.",
+    "price": 52000,
+    "img": "../images/eburet_mega_blue.png"
+  },
+  {
+    "id": "3",
+    "title": "Myshonok",
+    "vendor_code": "333",
+    "description": "Журнальный/кофейный столик.",
+    "price": 60000,
+    "img": "../images/myshonok_blue.png"
+  },
+  {
+    "id": "4",
+    "title": "Yura",
+    "vendor_code": "444e",
+    "description": "Стул, кресло.",
+    "price": 35000,
+    "img": "../images/yura_yellow.png"
+  },
+  {
+    "id": "5",
+    "title": "Barny-74",
+    "vendor_code": "4445e",
+    "description": "Барный стул, консоль для хранения.",
+    "price": 33000,
+    "img": "../images/barny_green.png"
+  },
+  {
+    "id": "6",
+    "title": "Eburet plus",
+    "vendor_code": "4446e",
+    "description": "Скамья, ниша для хранения, тумба.",
+    "price": 50000,
+    "img": "../images/eburet_plus_red.png"
+  },
+  {
+    "id": "7",
+    "title": "Valera +",
+    "vendor_code": "4447e",
+    "description": "Стул.",
+    "price": 30000,
+    "img": "../images/valera.png"
+  },
+  {
+    "id": "8",
+    "title": "Eburet mini",
+    "vendor_code": "4448e",
+    "description": "Консоль для хранения, функциональная скульптура, табурет.",
+    "price": 14000,
+    "img": "../images/eburet_mini.png"
+  },
+  {
+    "id": "9",
+    "title": "Nlo",
+    "vendor_code": "444e",
+    "description": "Столик, тумба.",
+    "price": 28000,
+    "img": "../images/nlo_orange.png"
+  }
+]

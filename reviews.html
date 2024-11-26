@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eburet</title>
+    <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico" />
+    <link rel="icon" type="image/png" href="images/favicons/favicon.png" />
+    <link rel="stylesheet" href="stylesheets/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="shop.html" class="menu-item"><li>Магазин</li></a>
+          <a href="about.html" class="menu-item"><li>О бренде</li></a>
+          <a href="order.html" class="menu-item"><li>Заказать</li></a>
+          <a href="index.html" class="logo-link"
+            ><img src="images/logo.png" alt="Eburet"
+          /></a>
+          <a href="reviews.html" class="menu-item active"><li>Отзывы</li></a>
+          <a href="help.html" class="menu-item"><li>Помощь</li></a>
+          <a href="contacts.html" class="menu-item"><li>Контакты</li></a>
+        </ul>
+      </nav>
+    </header>
+    <section class="reviews-container">
+      <h2>Отзывы</h2>
+      <div class="reviews-card-wrapper">
+        <div class="review-card">
+          <div class="review-header">
+            <h3 class="review-author">Никита</h3>
+            <span class="review-date">6 ноября 2024</span>
+          </div>
+          <p class="review-text">
+            Отличное качество, классный предмет интерьера, в каком-то смысле
+            многофункциональный.
+          </p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <h3 class="review-author">Юлия</h3>
+            <span class="review-date">6 ноября 2024</span>
+          </div>
+          <p class="review-text">
+            Интересная задумка и концепция. Есть как дорогие так и бюджетные
+            позиции, очень освежает интерьер. И приятно команду поддержать
+            рублём, за такую эко инициативу.
+          </p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <h3 class="review-author">Василий</h3>
+            <span class="review-date">6 ноября 2024</span>
+          </div>
+          <p class="review-text">
+            Плюсов масса и минусов нет. Предметы мебели с великолепным дизайном
+            и удобством. Найдут свою место в любом интерьере.
+          </p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <h3 class="review-author">Вадим</h3>
+            <span class="review-date">6 ноября 2024</span>
+          </div>
+          <p class="review-text">Очень необычно!</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <h3 class="review-author">Людмила</h3>
+            <span class="review-date">6 ноября 2024</span>
+          </div>
+          <p class="review-text">
+            Стильная мебель из переработанных материалов
+          </p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <h3 class="review-author">Иван</h3>
+            <span class="review-date">6 ноября 2024</span>
+          </div>
+          <p class="review-text">Простое эстетическое удовольствие</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <h3 class="review-author">Ольга</h3>
+            <span class="review-date">6 ноября 2024</span>
+          </div>
+          <p class="review-text">
+            Ну во-первых это красиво))) плюс он качественный, увесистый. Еще и
+            производство Спб. И из переработанного пластика. Одни достоинства
+          </p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <h3 class="review-author">Мария</h3>
+            <span class="review-date">6 ноября 2024</span>
+          </div>
+          <p class="review-text">
+            Супер классный бренд! Обожаю! Все очень аккуратно, ярко и
+            качественно.
+          </p>
+        </div>
+      </div>
+      <a
+        class="btn"
+        href="https://reviews.yandex.ru/product/eburet--30177280"
+        target="_blank"
+        >Все отзывы</a
+      >
+    </section>
+    <section class="review-form-contaner">
+      <form
+        id="reviewForm"
+        name="reviewForm"
+        action="https://www.google.com/search?q="
+        method="get"
+        target="_blank"
+      >
+        <h2>Оставить отзыв</h2>
+        <input type="hidden" name="q" value="search" />
+        <label for="surname">Фамилия:</label>
+        <input
+          type="text"
+          id="surname"
+          name="surname"
+          placeholder="Ваша фамилия"
+          required
+        />
+
+        <label for="name">Имя:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Ваше имя"
+          required
+        />
+
+        <label for="group">Текст отзыва:</label>
+        <textarea
+          type="text"
+          id="review"
+          name="review"
+          rows="4"
+          cols="50"
+          placeholder="Введите текст..."
+          required
+        ></textarea>
+
+        <button type="submit" id="checkButton">Отправить</button>
+      </form>
+      <img src="images/eburet_blue_photo.png" alt="Eburet" />
+    </section>
+    <footer>
+      <p>Eburet © 2024</p>
+      <a href="#top" class="back-to-top">К началу ↑</a>
+    </footer>
+  </body>
+</html>
