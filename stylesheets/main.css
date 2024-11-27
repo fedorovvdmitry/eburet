@@ -65,7 +65,8 @@ header nav ul {
   background-color: #e2e2e2;
 }
 
-.menu-item.active {
+.menu-item.active,
+.menu-item-mobile.active {
   background-color: #fa8196;
   color: white;
 }
@@ -86,12 +87,61 @@ header nav ul {
 }
 
 .header-btn-mobile {
+  position: relative;
   display: none;
   width: 32px;
   height: 32px;
   background-image: url('../images/btn_burger.png');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.header-btn-mobile .menumobile {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+  top: 130%;
+  right: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-btn-mobile .menumobile.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 0.2s;
+  animation: fadeIn 0.2s;
+}
+
+.menumobile a {
+  padding: 8px 24px;
+  color: black;
+  background-color: white;
+  border-radius: 32px;
+  border: 1px solid #e2e2e2;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.menumobile a + a {
+  margin-top: 8px;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /* index */
@@ -431,6 +481,30 @@ header nav ul {
   font-family: 'Nunito', sans-serif;
   border-radius: 30px;
   border: 1px solid #e2e2e2;
+}
+
+/* help */
+
+.chapters_box {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+}
+
+.chapters_box a {
+  color: #53a0ee;
+}
+
+.chapters_box a + a {
+  margin-top: 8px;
+}
+
+.contacts_contaner p + h3 {
+  margin-top: 24px;
+}
+
+.contacts_contaner h3 + p {
+  margin-top: 16px;
 }
 
 /* footer */
