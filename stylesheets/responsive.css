@@ -26,14 +26,53 @@
     display: none;
   }
 
+  .logo-link {
+    margin: 0;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-btn-mobile {
+    display: block;
+  }
+
   .index_main_contaner img {
     width: 100%;
     height: auto;
   }
 
+  .wrap_imgs {
+    display: none;
+  }
+
+  .product-card img {
+    width: 100%;
+  }
+
   .intro-text {
     width: 100%;
     padding: 0 24px;
+    box-sizing: border-box;
+  }
+
+  .about-brand-container,
+  .review-form-contaner,
+  .contacts_contaner_box {
+    flex-direction: column;
+  }
+
+  .about-brand-text,
+  .about-brand-images,
+  .order_contaner,
+  .review-form-contaner form,
+  .review-form-contaner img,
+  .contacts_contaner,
+  .contacts_contaner img {
+    width: 100%;
     box-sizing: border-box;
   }
 }
